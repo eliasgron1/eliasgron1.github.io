@@ -298,6 +298,25 @@ svg {
   vertical-align: middle;
 }
 
+.main-header{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: right;
+  padding-left: 50px;
+  padding-right: 50px;
+  justify-content: center;
+
+}
+.main-header-column{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 0;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 table {
   caption-side: bottom;
   border-collapse: collapse;
@@ -10965,6 +10984,8 @@ html {
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
+  text-align: right;
+  align-items: center;
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
@@ -10974,9 +10995,7 @@ html {
   padding-top: .7em;
   font-size: 1.25rem;
 }
-.masthead .masthead-avatar {
-  width: 15rem;
-}
+
 
 @media (min-width: 992px) {
   .masthead {
