@@ -48,5 +48,5 @@ window.addEventListener('DOMContentLoaded', event => {
 // Copy Email Function
 function CopyText() {
     navigator.clipboard.writeText
-    ("eliasgronholm03@gmail.com");
+    ("gronholmelias0@gmail.com");
   } 
