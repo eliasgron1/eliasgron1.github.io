@@ -46,7 +46,11 @@ window.addEventListener('DOMContentLoaded', event => {
 
 
 // Copy Email Function
-function CopyText() {
+function Copy_Email_Address() {
     navigator.clipboard.writeText
     ("gronholmelias0@gmail.com");
-  } 
+}
+function Copy_GPG_Key() {
+    navigator.clipboard.writeText
+    ("0xE5DB74C415F0B840D183D600EF504D7FEF814A4A");
+}  
